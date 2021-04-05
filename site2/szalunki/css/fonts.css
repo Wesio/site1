@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?76o01');
+  src:  url('../fonts/icomoon.eot?76o01#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?76o01') format('truetype'),
+    url('../fonts/icomoon.woff?76o01') format('woff'),
+    url('../fonts/icomoon.svg?76o01#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check:before {
+  content: "\f00c";
+}
+.icon-align-justify:before {
+  content: "\f039";
+}
+.icon-map-marker:before {
+  content: "\f041";
+}
+.icon-phone-square:before {
+  content: "\f098";
+}
+.icon-envelope:before {
+  content: "\f0e0";
+}
+.icon-angle-left:before {
+  content: "\f104";
+}
+.icon-angle-right:before {
+  content: "\f105";
+}
+.icon-laptop:before {
+  content: "\f109";
+}
+.icon-quote-right:before {
+  content: "\f10e";
+}
